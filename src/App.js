@@ -16,6 +16,8 @@ import {
 } from "lucide-react";
 import emailjs from "@emailjs/browser";
 
+const titles = ['Software Engineer', 'Full-Stack Engineer', 'Cloud Engineer', 'Problem Solver'];
+
 const ModernPortfolio = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [expandedSkill, setExpandedSkill] = useState(null);
@@ -29,12 +31,6 @@ const ModernPortfolio = () => {
     message: "",
   });
 
-  const titles = [
-    "Software Engineer",
-    "Full-Stack Engineer",
-    "Cloud Engineer",
-    "Problem Solver",
-  ];
   const EMAILJS_SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
   const EMAILJS_TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
   const EMAILJS_PUBLIC_KEY = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
@@ -70,7 +66,7 @@ const ModernPortfolio = () => {
 
     const timer = setTimeout(handleType, typingSpeed);
     return () => clearTimeout(timer);
-  }, [typedText, isDeleting, loopNum, typingSpeed, titles]);
+  }, [typedText, isDeleting, loopNum, typingSpeed]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
