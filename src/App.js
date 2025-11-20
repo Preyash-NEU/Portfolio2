@@ -70,7 +70,7 @@ const ModernPortfolio = () => {
 
     const timer = setTimeout(handleType, typingSpeed);
     return () => clearTimeout(timer);
-  }, [typedText, isDeleting, loopNum, typingSpeed]);
+  }, [typedText, isDeleting, loopNum, typingSpeed, titles]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
