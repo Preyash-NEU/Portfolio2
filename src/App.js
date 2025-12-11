@@ -808,7 +808,7 @@ const ModernPortfolio = () => {
                 View Projects <ArrowRight size={18} />
               </button>
               <a
-                href="/resume.pdf"
+                href="/Preyash-Mehta.pdf"
                 download="Preyash-Mehta.pdf"
                 style={{
                   padding: isMobile ? "14px 32px" : "16px 40px",
