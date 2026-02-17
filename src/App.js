@@ -313,9 +313,11 @@ const ModernPortfolio = () => {
           "AWS",
           "Docker",
           "Kubernetes",
+          "Kafka",
           "Jenkins",
           "GitHub Actions",
           "Terraform",
+          "Control-M"
         ],
         details: [
           {
@@ -328,6 +330,10 @@ const ModernPortfolio = () => {
               "Containerization and orchestration for scalable deployments",
           },
           {
+            name: "Kafka",
+            description: "Distributed event streaming platform for building real-time data pipelines", 
+          },
+          {
             name: "Terraform",
             description: "Infrastructure as Code for cloud resource management",
           },
@@ -335,6 +341,10 @@ const ModernPortfolio = () => {
             name: "Jenkins & GitHub Actions",
             description: "Automated build, test, and deployment pipelines",
           },
+          {
+            name: "Control-M",
+            description: "Enterprise job scheduling and workload automation",
+          }
         ],
       },
       testing: {
@@ -895,7 +905,7 @@ const ModernPortfolio = () => {
                   marginBottom: "20px",
                 }}
               >
-                Full-stack Software Engineer with 3 years of experience
+                Full-stack Software Engineer with 2+ years of experience
                 delivering scalable microservices, cloud-based workflows, and
                 secure, high-performance web applications. Skilled in building
                 robust APIs, optimizing relational databases, and developing
