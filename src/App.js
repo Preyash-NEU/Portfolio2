@@ -173,6 +173,10 @@ const ModernPortfolio = () => {
               "Type-safe development with enhanced code quality and developer experience",
           },
           {
+            name: "Go",
+            description: "High-performance systems programming and microservices with Go's concurrency model",
+          },
+          {
             name: "JavaScript",
             description: "Modern ES6+ features for full-stack web development",
           },
