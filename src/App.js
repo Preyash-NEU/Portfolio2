@@ -155,12 +155,17 @@ const ModernPortfolio = () => {
       languages: {
         icon: <Code2 size={24} />,
         title: "Languages & Frameworks",
-        items: ["Java", "TypeScript", "JavaScript", "Python", "SQL"],
+        items: ["Java", "Python", "TypeScript", "JavaScript", "SQL"],
         details: [
           {
             name: "Java",
             description:
               "Enterprise application development with Spring ecosystem and microservices",
+          },
+          {
+            name: "Python",
+            description:
+              "Data science and automation with libraries like NumPy, Pandas, and Flask",
           },
           {
             name: "TypeScript",
@@ -183,11 +188,10 @@ const ModernPortfolio = () => {
         title: "Backend Technologies",
         items: [
           "Spring Boot",
-          "Node.js",
-          "Express",
-          "REST APIs",
-          "Microservices",
-          "OAuth2/JWT",
+          "Spring MVC", 
+          "Node.js", 
+          "FastAPI", 
+          "GraphQL"
         ],
         details: [
           {
@@ -205,26 +209,27 @@ const ModernPortfolio = () => {
             description: "RESTful APIs and server-side JavaScript applications",
           },
           {
-            name: "Microservices",
-            description:
-              "Distributed system design and service-oriented architecture",
+            name: "FastAPI",
+            description:"High-performance Python APIs with async support and automatic documentation",
           },
           {
-            name: "RESTful APIs",
-            description: "API design, versioning, and best practices",
-          },
+            name: "GraphQL",
+            description: "Flexible APIs with efficient data fetching and strong typing",
+          }
         ],
       },
       frontend: {
         icon: <Layout size={24} />,
         title: "Frontend Development",
         items: [
-          "React",
-          "Angular",
-          "Tailwind CSS",
-          "Redux",
-          "Responsive Design",
-          "Component Architecture",
+          "React.js",
+          "Redux", 
+          "Zustand", 
+          "HTML5",
+          "CSS3", 
+          "Tailwind CSS", 
+          "Vite", 
+          "Streamlit"
         ],
         details: [
           {
@@ -233,27 +238,25 @@ const ModernPortfolio = () => {
               "Building modern, performant web applications with hooks and context",
           },
           {
-            name: "Angular",
-            description:
-              "Enterprise frontend applications with TypeScript and RxJS",
+            name: "State Management",
+            description: "Managing application state with Redux and Zustand",
+          },
+          {
+            name: "HTML5 & CSS3",
+            description:"Semantic markup and responsive design for modern web interfaces",
           },
           {
             name: "Tailwind CSS",
-            description:
-              "Rapid UI development with utility-first CSS framework",
+            description: "Utility-first CSS framework for rapid UI development",
           },
           {
-            name: "Redux",
-            description: "State management for predictable application behavior",
+            name: "Vite",
+            description: "Next-generation frontend tooling for fast development",
           },
           {
-            name: "Responsive Design",
-            description: "Mobile-first design and cross-browser compatibility",
-          },
-          {
-            name: "Component-Driven Development",
-            description: "Reusable components and design systems",
-          },
+            name: "Streamlit",
+            description: "Rapid development of data apps and interactive dashboards with Python",
+          }
         ],
       },
       databases: {
@@ -351,19 +354,27 @@ const ModernPortfolio = () => {
         icon: <CheckCircle2 size={24} />,
         title: "Testing & Quality",
         items: [
-          "JUnit",
-          "Mockito",
-          "Cypress",
-          "Postman",
-          "Selenium",
-          "Integration Testing",
-          "CloudWatch",
-          "Grafana",
+          "JUnit", 
+          "Mockito", 
+          "Jest", 
+          "Unittest2", 
+          "Selenium", 
+          "Cypress", 
+          "Postman", 
+          "Datadog"
         ],
         details: [
           {
             name: "JUnit & Mockito",
             description: "Unit testing and mocking for Java applications",
+          },
+          {
+            name: "Jest",
+            description: "Testing framework for JavaScript applications",
+          },
+          {
+            name: "Unittest2",
+            description: "Python's unit testing framework",
           },
           {
             name: "Cypress",
@@ -378,9 +389,9 @@ const ModernPortfolio = () => {
             description: "Automated browser testing and comprehensive integration tests",
           },
           {
-            name: "CloudWatch & Grafana",
-            description: "Metrics, logs, and dashboards for system monitoring",
-          },
+            name: "Datadog",
+            description: "Monitoring and observability for application performance and reliability",
+          }
         ],
       },
     },
@@ -403,6 +414,13 @@ const ModernPortfolio = () => {
   ];
 
   const experience = [
+  {
+    title: "Software Engineer Intern",
+    company: "Bear Brown & Co",
+    period: "October 2024 - December 2024",
+    description: "Architected AI-powered chatbot web applications using Python and Streamlit to support university portals and CRM workflows, enabling real-time conversational assistance. Engineered LLM-driven backend workflows and API integrations, including prompt orchestration, conversation state management, and monitoring, to improve chatbot reliability and overall user experience.",
+    keyAreas: ["AI Chatbot Development", "LLM Integration", "Backend Workflow Orchestration", "API Design"],
+  },
   {
     title: "Software Engineering Intern",
     company: "Formless Inc.",
