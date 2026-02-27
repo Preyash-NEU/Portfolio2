@@ -155,7 +155,7 @@ const ModernPortfolio = () => {
       languages: {
         icon: <Code2 size={24} />,
         title: "Languages & Frameworks",
-        items: ["Java", "Python", "TypeScript", "JavaScript", "SQL"],
+        items: ["Java", "Python", "TypeScript", "Go", "JavaScript", "SQL"],
         details: [
           {
             name: "Java",
